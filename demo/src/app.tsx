@@ -31,7 +31,7 @@ export default function ButtonConfigPage() {
     appId: true,
   });
 
-  const isInitialized = useScript(`${import.meta.env.VITE_APP_SCRIPT_URL}kpi-id-signin.js`);
+  const isInitialized = useScript('/kpi-id-signin.js');
 
   const buttonPreview = getButtonPreview(buttonConfig);
 
