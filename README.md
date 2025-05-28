@@ -44,7 +44,7 @@ npm run dev
 2. Include script and initialization at the bottom of a web page
 
 ```html
-<script src="https://auth.kpi.ia/kpi-id-signin.js" async=""></script>
+<script src="https://do4rt9wur3t6m.cloudfront.net/kpi-id-signin.js" async=""></script>
 <script>
   if (window.KPIID && isInitialized) {
     window.KPIID.init();
