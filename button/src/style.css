@@ -39,7 +39,7 @@ body {
   cursor: pointer;
   border-radius: 8px;
 
-  &.brand {
+  &.__kpi_id_brand {
     --border: 16 98 163;
     --background: 16 98 163;
     --hover: 0 97 160;
@@ -49,7 +49,7 @@ body {
     --color-active: 255, 255, 255;
   }
 
-  &.outline {
+  &.__kpi_id_outline {
     --border: 199 200 213;
     --background: 255 255 255;
     --hover: 255 255 255;
@@ -60,7 +60,7 @@ body {
     color: rgb(64 65 77);
   }
 
-  &.small {
+  &.__kpi_id_small {
     padding: 7px 10px;
     gap: 5px;
     font-size: 12px;
@@ -72,7 +72,7 @@ body {
     }
   }
 
-  &.medium {
+  &.__kpi_id_medium {
     padding: 9px 12px;
     gap: 6px;
     font-size: 14px;
@@ -84,7 +84,7 @@ body {
     }
   }
 
-  &.large {
+  &.__kpi_id_large {
     padding: 11px 16px;
     gap: 8px;
     font-size: 16px;
@@ -96,7 +96,7 @@ body {
     }
   }
 
-  &.full-width {
+  &.__kpi_id_full-width {
     width: 100%;
   }
 

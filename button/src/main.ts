@@ -66,9 +66,9 @@ export function init() {
 
   const className = cn(
     '__kpi_id_button',
-    config.size,
-    config.color,
-    { 'full-width': config.fullWidth },
+    `__kpi_id_${config.size}`,
+    `__kpi_id_${config.color}`,
+    { '__kpi_id_full-width': config.fullWidth },
     config.className,
   );
   const contents = [CODE_OF_ARMS_IMAGE, config.caption];
